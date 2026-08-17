@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sign Up | NovaCart</title>
+    <meta name="description" content="Create your NovaCart account and get updates on new products and exclusive offers." />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header>
+      <div class="container navbar">
+        <a href="index.html" class="brand" aria-label="NovaCart home">
+          <span class="brand-mark">N</span>
+          <span>NovaCart</span>
+        </a>
+
+        <nav class="nav-links" aria-label="Main navigation">
+          <a href="index.html">Home</a>
+          <a href="about.html">About</a>
+          <a href="contact.html">Contact</a>
+          <a href="signup.html">Sign Up</a>
+        </nav>
+
+        <a href="index.html#shop" class="cart-pill" id="cart-count">Cart (0)</a>
+      </div>
+    </header>
+
+    <main>
+      <section class="page-hero">
+        <div class="container page-hero-inner">
+          <span class="eyebrow">Join the list</span>
+          <h1>Create your account.</h1>
+          <p>
+            Sign up to unlock early access, exclusive offers, and the latest arrivals from NovaCart.
+          </p>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="container content-grid">
+          <div class="info-card">
+            <h3>Member benefits</h3>
+            <div class="info-list">
+              <div class="info-item">
+                <strong>Exclusive discounts</strong>
+                <span>Early access to sales and member-only pricing.</span>
+              </div>
+              <div class="info-item">
+                <strong>New arrivals</strong>
+                <span>Get updates as soon as fresh collections drop.</span>
+              </div>
+              <div class="info-item">
+                <strong>Fast checkout</strong>
+                <span>Save your details for quicker purchase next time.</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="form-card">
+            <h3>Sign up</h3>
+            <form>
+              <div class="input-row">
+                <div class="input-group">
+                  <label for="first-name">First name</label>
+                  <input class="field" id="first-name" type="text" placeholder="First name" />
+                </div>
+                <div class="input-group">
+                  <label for="last-name">Last name</label>
+                  <input class="field" id="last-name" type="text" placeholder="Last name" />
+                </div>
+              </div>
+
+              <div class="input-group">
+                <label for="signup-email">Email</label>
+                <input class="field" id="signup-email" type="email" placeholder="you@example.com" />
+              </div>
+
+              <div class="input-group">
+                <label for="password">Password</label>
+                <input class="field" id="password" type="password" placeholder="Create a password" />
+              </div>
+
+              <label class="checkbox-row">
+                <input type="checkbox" />
+                <span>I agree to receive updates and marketing emails.</span>
+              </label>
+
+              <button class="submit-btn" type="submit">Create account</button>
+            </form>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div class="container footer-row">
+        <span>© 2026 NovaCart</span>
+        <span>Your next favorite essential starts here.</span>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
